@@ -5,6 +5,8 @@ module.exports = {
       filename: "./data/produce.db3"
     },
     useNullAsDefault: true,
-    migrations: {}
+    migrations: {
+      directory: "./data/migrations"
+    }
   }
 };
